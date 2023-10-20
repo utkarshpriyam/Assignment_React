@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/assignment_react/static/css/main.659108c7.css",
+    "main.js": "/assignment_react/static/js/main.aa326161.js",
+    "static/js/787.0420ccf9.chunk.js": "/assignment_react/static/js/787.0420ccf9.chunk.js",
+    "static/media/nxt_wave_bg.mp4": "/assignment_react/static/media/nxt_wave_bg.9cfeda99a5387324d168.mp4",
+    "static/media/one_percent_cashback.png": "/assignment_react/static/media/one_percent_cashback.da65c337081dfdbfb013.png",
+    "static/media/five_x_rewards.png": "/assignment_react/static/media/five_x_rewards.e4ecda231b6c8bb6d232.png",
+    "static/media/forex_globe.png": "/assignment_react/static/media/forex_globe.ce7251618b44f3d32470.png",
+    "static/media/nx_wave_hero.png": "/assignment_react/static/media/nx_wave_hero.003d0673f38ec15432b2.png",
+    "static/media/app_screen_2.webp": "/assignment_react/static/media/app_screen_2.813a82ed9be77b15fdc7.webp",
+    "static/media/app_screen_1.webp": "/assignment_react/static/media/app_screen_1.1f389970e0097ae50cac.webp",
+    "static/media/circles.png": "/assignment_react/static/media/circles.461893053e8c72652c40.png",
+    "static/media/SBM.svg": "/assignment_react/static/media/SBM.feef66f04e21263ecba66ff74ad4482a.svg",
+    "static/media/pcidss_cert.svg": "/assignment_react/static/media/pcidss_cert.77ce55bad7367afb57c44de3ac1d0d07.svg",
+    "static/media/whatsapp_bubble.webp": "/assignment_react/static/media/whatsapp_bubble.f4d0a6bc8a0ccf38e082.webp",
+    "static/media/antivirus_bubble.webp": "/assignment_react/static/media/antivirus_bubble.765bbf6df221404e7d62.webp",
+    "static/media/rupee_bubble.webp": "/assignment_react/static/media/rupee_bubble.c12c2e94918813cb8e88.webp",
+    "index.html": "/assignment_react/index.html",
+    "static/media/down_arrow.svg": "/assignment_react/static/media/down_arrow.38cbd8d85f15e52b0903aac5aa46c1fc.svg",
+    "main.659108c7.css.map": "/assignment_react/static/css/main.659108c7.css.map",
+    "main.aa326161.js.map": "/assignment_react/static/js/main.aa326161.js.map",
+    "787.0420ccf9.chunk.js.map": "/assignment_react/static/js/787.0420ccf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.659108c7.css",
+    "static/js/main.aa326161.js"
+  ]
+}
