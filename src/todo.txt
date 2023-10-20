@@ -1,0 +1,34 @@
+for animation :
+
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css/animate.min.css';
+
+export default function App() {
+  return (
+    <div>
+      <ScrollAnimation animateIn="fadeIn" offset={100}>
+        <div>Animating element coming from top to bottom</div>
+      </ScrollAnimation>
+    </div>
+  );
+}
+
+in css file
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100px) translateZ(0px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

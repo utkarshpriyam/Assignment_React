@@ -1,0 +1,97 @@
+.overallContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    position: relative;
+}
+
+.overallImageContainer {
+    width: 70%;
+    height: auto;
+    top: 0;
+    position: absolute;
+}
+
+.innerContainer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    max-width: 80rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.innerText {
+    flex-grow: 0;
+    flex: 50%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.innerImage {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.innerMajorContainer {
+    color: white;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.uni-gradient-primary {
+    color: transparent;
+    background-image: linear-gradient(90deg, rgb(143, 255, 239) 25%, rgb(249, 244, 144));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.innerMinorText {
+    color: rgb(191,201,204);
+    font-size: 14px;
+}
+
+.appImage {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .innerMinorText {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .innerMajorContainer {
+        font-size: 40px;
+    }
+
+    .innerImage {
+        flex: 50%;
+        width: 450px;
+    }
+
+    .innerContainer {
+        display: flex;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .overallContainer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}

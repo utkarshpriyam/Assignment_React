@@ -1,0 +1,135 @@
+#featuresSectionContainer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 80rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.commonRowStyle {
+    display: flex;
+    font-weight: 500;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.featureText  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #1c2132;
+    line-height: 2rem;
+    font-size: 1.875rem;
+}
+
+.infoText {
+    width: 100%;
+}
+
+.majorText {
+    font-weight: 700;
+}
+
+.minorText {
+    font-weight: 400;
+    color: #9ea7ae;
+}
+
+.infoCaption {
+    color: #9ea7ae;
+    line-height: 1.25rem;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 2.5rem;
+}
+
+.infoImage {
+    width: 100%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.imageHolder {
+    position: relative;
+    width: 280px;
+    /* height: 265px; */
+}
+
+.imageProp {
+    width: 100%;
+    object-fit: cover;
+}
+
+.featureFooter {
+    display: flex;
+    justify-content: flex-start;
+    line-height: 34px;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 10rem;
+}
+
+.freeFocus {
+    color: rgb(90, 214, 196);
+}
+
+@media (min-width: 768px) {
+    .annual-charges {
+        text-align: center;
+    }
+    .joiningFee {
+        text-align: center;
+    }
+    .featureFooter {
+        line-height: 1.2;
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+    }
+    .infoImage {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .infoCaption {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+    .infoText {
+        width: 300px;
+    }
+    .commonRowStyle {
+        padding-top: 70px;
+        padding-bottom: 60px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        align-items: center;
+    }
+    .forwardRow  {
+        flex-direction: row;
+    }
+    .backwardRow {
+        flex-direction: row-reverse;
+    }
+    #featuresSectionContainer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imageHolder {
+        width: 448px;
+        height: 424px;
+    }
+    .infoImage {
+        padding-top: 0;
+        width: 50%;
+    }
+    .infoText {
+        width: 510px;
+    }
+}

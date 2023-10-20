@@ -24,6 +24,18 @@
   color: white;
 }
 
+#frontSections {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  #frontSections {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
